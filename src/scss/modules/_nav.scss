@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $dark;
+    color: white;
+    h1 {
+        font-size: 30px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+        padding: 0;
+        width: 50%;
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 10px;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+        li:hover {
+            background-color: $bleuOcean;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+        }
+    }
+}
